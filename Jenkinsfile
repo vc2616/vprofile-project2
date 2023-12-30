@@ -37,6 +37,7 @@ pipeline {
                 sh 'mvn -s settings.xml test'
             }
 
+
         }
 
         stage('Checkstyle Analysis'){
